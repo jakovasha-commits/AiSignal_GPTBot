@@ -1,0 +1,35 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python env
+venv/
+.venv/
+env/
+ENV/
+
+# Data
+/data/
+data/
+
+# IDE
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# Docker
+*.tgz
+docker-compose.override.yml
+
+# macOS
+.DS_Store
